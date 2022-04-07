@@ -35,9 +35,10 @@ function on_correct_answer() {
 }
 
 function on_wrong_answer() {
+    decrement_lives();
+    update_hearts();
     highlight_answer_button(clicked_button, "answer_button_wrong");
     after_n_seconds(function() {
-        decrement_lives();
         check_lives(on_game_over, fetch_new_question);
     }, 1);
 }
@@ -62,7 +63,7 @@ function update_question_text(question) {
 
 function update_answer_buttons_text(answer_options) {
     // TBD update the text of the 4 answer buttons
-    // HINT: "javascript find element by class", "javascript update element text"
+    // HINT: "javascript find elements by class", "javascript update element text"
 }
 
 function store_correct_answer(answer) {
@@ -107,6 +108,11 @@ function update_level_heading() {
 
 function decrement_lives() {
     lives = lives - 1;
+}
+
+function update_hearts() {
+    // TBD update the hearts to show remaining lives (use ri-heart-3-line class for empty heart)
+    // HINT: "javascript find elements by class", "javascript remove class from element"
 }
 
 function check_lives(on_game_over, fetch_new_question) {
