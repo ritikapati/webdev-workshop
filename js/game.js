@@ -52,38 +52,49 @@ function on_game_over() {
 
 // Event functions
 function fetch_new_question() {
-    // TBD fetch question data from Trivia DB API then call on_question_load(question, answer_options, answer)
-    // HINT: "javascript fetch api"
+    fetch(TRIVIA_API_URL)
+        .then(response => response.json())
+        .then(data => {
+            question = data["results"][0]["question"];
+            answer = data["results"][0]["correct_answer"];
+            answer_options = data["results"][0]["incorrect_answers"];
+            answer_insert_index = Math.floor(Math.random() * 4);
+            answer_options.splice(answer_insert_index, 0, answer); // to insert the answer into the answer options
+            on_question_load(question, answer_options, answer);
+        });
 }
 
 function update_question_text(question) {
-    // TBD update the text of the question
-    // HINT: "javascript find element by id", "javascript update element text"
+    document.getElementsById("question_text").textContent = question;
 }
 
 function update_answer_buttons_text(answer_options) {
-    // TBD update the text of the 4 answer buttons
-    // HINT: "javascript find elements by class", "javascript update element text"
+    let answer_buttons = document.getElementsByClassName("answer_button");
+    for (let i = 0; i < answer_buttons.length; ++i) {
+        answer_buttons[i].textContent = answer_options[i];
+    }
 }
 
 function store_correct_answer(answer) {
-    // TBD update correct_answer with answer
-    // HINT: "javascript assignment operator"
+    correct_answer = answer;
 }
 
 function fetch_clue_image_gif(answer) {
-    // TBD fetch clue image gif from Tenor API then call on_clue_image_gif_load(gif_url)
-    // HINT: "javascript fetch api"
+    fetch(TENOR_API_URL.replace("QUERY", answer))
+        .then(response => response.json())
+        .then(data => {
+            const results_length = data["results"].length;
+            const random_index = Math.floor(Math.random() * results_length);
+            const media = data["results"][random_index]["media"][0];
+            on_clue_image_gif_load(media["gif"]["url"]);
+        });
 }
 
 function update_clue_image(gif_url) {
-    // TBD update the clue image with the gif url
-    // HINT: "javascript find element by id", "javascript update image url"
+    document.getElementById("question_clue_image").setAttribute("src", gif_url);
 }
 
 function check_answer(clicked_button, on_correct_answer, on_wrong_answer) {
-    // TBD get the text of the clicked_button and check if it matches with the correct answer then call on_correct_answer or on_wrong_answer
-    // HINT: "javascript get button element text", "javascript if else statement"
     if (clicked_button.textContent === correct_answer) {
         on_correct_answer(clicked_button);
     } else {
