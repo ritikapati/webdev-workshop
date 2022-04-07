@@ -52,62 +52,78 @@ function on_game_over() {
 // Event functions
 function fetch_new_question() {
     // TBD fetch question data from Trivia DB API then call on_question_load(question, answer_options, answer)
+    // HINT: "javascript fetch api"
 }
 
 function update_question_text(question) {
     // TBD update the text of the question
+    // HINT: "javascript find element by id", "javascript update element text"
 }
 
 function update_answer_buttons_text(answer_options) {
     // TBD update the text of the 4 answer buttons
+    // HINT: "javascript find element by class", "javascript update element text"
 }
 
 function store_correct_answer(answer) {
     // TBD update correct_answer with answer
+    // HINT: "javascript assignment operator"
 }
 
 function fetch_clue_image_gif(answer) {
     // TBD fetch clue image gif from Tenor API then call on_clue_image_gif_load(gif_data)
+    // HINT: "javascript fetch api"
 }
 
 function update_clue_image(gif_data) {
     // TBD update the clue image with the gif data
+    // HINT: "javascript find element by id", "javascript update image url"
 }
 
 function check_answer(clicked_button, on_correct_answer, on_wrong_answer) {
     // TBD get the text of the clicked_button and check if it matches with the correct answer then call on_correct_answer or on_wrong_answer
+    // HINT: "javascript get button element text", "javascript if else statement"
 }
 
 function highlight_answer_button(clicked_button, color) {
     // TBD change the color of clicked_button to the arg color and create a 1 second timer to reset the color back
+    // HINT: "javascript add a class to element", "javascript timers", "javascript remove class from element"
 }
 
 function after_n_seconds(function_to_execute, n) {
     // TBD create a single burst timer for n seconds then call function_to_execute
+    // HINT: "javascript timers"
 }
 
 function increment_level() {
     // TBD increment level by 1
+    // HINT: "javascript arithmetic operators", "javascript increment by 1"
 }
 
 function update_level_heading() {
     // TBD update the level_heading to "Level X" where X is the current level
+    // HINT: "javascript string concatenation", "javascript find element by id", "javascript update element text"
 }
 
 function decrement_lives() {
     // TBD decrement lives by 1
+    // HINT: "javascript arithmetic operators", "javascript decrement by 1"
 }
 
 function check_lives(on_game_over, fetch_new_question) {
     // TBD check if lives are 0 then call game_over() else fetch_new_question()
+    // HINT: "javascript if else statement"
 }
 
 function hide_answer_buttons() {
     // TBD hide the 4 answer buttons
+    // HINT: "javascript get html elements by class", "javascript hide elements"
 }
 
 function go_to_homepage() {
     // TBD navigate to homepage ("index.html")
+    // HINT: "javascript navigate to a different page"
 }
 
 // TBD call on_page_load when the page loads
+// HINT: "javascript run code after page load"
