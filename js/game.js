@@ -53,8 +53,12 @@ function on_game_over() {
 
 // Event functions
 function register_answer_button_clicks() {
-    // TBD register event handlers to call on_answer_button_click with the clicked_button when a button is clicked
-    // HINT: "javascript register button click handler"
+    let answer_buttons = document.getElementsByClassName("answer_button");
+    for (let i = 0; i < answer_buttons.length; ++i) {
+        answer_buttons[i].addEventListener("click", function(event) {
+            on_answer_button_click(event.currentTarget);
+        });
+    }
 }
 
 function fetch_new_question() {
