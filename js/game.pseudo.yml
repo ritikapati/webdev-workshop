@@ -5,10 +5,10 @@
     - update the question text
     - update the answer buttons text
     - store the correct answer
-    - fetch the clue image gif from Tenor API using the correct answer
+    - fetch the clue image gif url from Tenor API using the correct answer as search query
 
-- When clue image gif loads:
-    - update the clue image with the loaded gif
+- When clue image gif url is done fetching:
+    - update the clue image with the gif url
 
 - When user clicks any answer button:
     - check if correct answer:
@@ -32,7 +32,7 @@
 
 - When "game_over" case:
     - update the question text to "GAME OVER!"
-    - fetch the clue image gif from Tenor API using "game over"
+    - fetch the clue image gif from Tenor API using "game over" as search query
     - hide the answer buttons
     - after 3 seconds:
         navigate to home page
