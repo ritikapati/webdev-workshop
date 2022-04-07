@@ -65,7 +65,7 @@ function fetch_new_question() {
 }
 
 function update_question_text(question) {
-    document.getElementsById("question_text").textContent = question;
+    document.getElementById("question_text").textContent = question;
 }
 
 function update_answer_buttons_text(answer_options) {
