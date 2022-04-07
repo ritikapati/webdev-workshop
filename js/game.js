@@ -63,7 +63,7 @@ function update_question_text(question) {
 
 function update_answer_buttons_text(answer_options) {
     // TBD update the text of the 4 answer buttons
-    // HINT: "javascript find element by class", "javascript update element text"
+    // HINT: "javascript find elements by class", "javascript update element text"
 }
 
 function store_correct_answer(answer) {
@@ -113,6 +113,7 @@ function decrement_lives() {
 
 function update_hearts() {
     // TBD update the hearts to show remaining lives (use ri-heart-3-line class for empty heart)
+    // HINT: "javascript find elements by class", "javascript remove class from element"
 }
 
 function check_lives(on_game_over, fetch_new_question) {
