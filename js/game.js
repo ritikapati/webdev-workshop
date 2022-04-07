@@ -75,13 +75,13 @@ function fetch_new_question() {
 }
 
 function update_question_text(question) {
-    document.getElementById("question_text").textContent = question;
+    document.getElementById("question_text").innerHTML = question;
 }
 
 function update_answer_buttons_text(answer_options) {
     let answer_buttons = document.getElementsByClassName("answer_button");
     for (let i = 0; i < answer_buttons.length; ++i) {
-        answer_buttons[i].textContent = answer_options[i];
+        answer_buttons[i].innerHTML = answer_options[i];
     }
 }
 
@@ -97,8 +97,7 @@ function fetch_clue_image_gif(answer) {
             const random_index = Math.floor(Math.random() * results_length);
             const media = data["results"][random_index]["media"][0];
             on_clue_image_gif_load(media["nanogif"]["url"]);
-        });
-        
+        });       
 }
 
 function update_clue_image(gif_url) {
@@ -106,7 +105,7 @@ function update_clue_image(gif_url) {
 }
 
 function check_answer(clicked_button, on_correct_answer, on_wrong_answer) {
-    if (clicked_button.textContent === correct_answer) {
+    if (clicked_button.innerHTML === correct_answer) {
         on_correct_answer(clicked_button);
     } else {
         on_wrong_answer(clicked_button);
