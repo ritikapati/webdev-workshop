@@ -78,7 +78,7 @@ function store_correct_answer(answer) {
 }
 
 function fetch_clue_image_gif(answer) {
-    // TBD fetch clue image gif from Tenor API then call on_clue_image_gif_load(gif_url)
+    // TBD fetch clue image gif from Tenor API (after replacing the QUERY) then call on_clue_image_gif_load(gif_url)
     // HINT: "javascript fetch api", "javascript string replace", "javascript get random number in range"
 }
 
