@@ -54,7 +54,7 @@ function update_answer_buttons_text(answer_options) {
 }
 
 function store_correct_answer(answer) {
-
+    // TBD update correct_answer with answer
 }
 
 function fetch_clue_image_gif(answer) {
