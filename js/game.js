@@ -96,7 +96,7 @@ function fetch_clue_image_gif(answer) {
             const results_length = data["results"].length;
             const random_index = Math.floor(Math.random() * results_length);
             const media = data["results"][random_index]["media"][0];
-            on_clue_image_gif_load(media["gif"]["url"]);
+            on_clue_image_gif_load(media["nanogif"]["url"]);
         });
 }
 
