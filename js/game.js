@@ -25,7 +25,7 @@ function on_answer_button_click() {
     check_answer(clicked_button, on_correct_answer, on_wrong_answer);
 }
 
-function on_correct_answer() {
+function on_correct_answer(clicked_button) {
     highlight_answer_button(clicked_button, "answer_button_correct");
     after_n_seconds(function() {
         increment_level();
@@ -34,7 +34,7 @@ function on_correct_answer() {
     }, 1);
 }
 
-function on_wrong_answer() {
+function on_wrong_answer(clicked_button) {
     decrement_lives();
     update_hearts();
     highlight_answer_button(clicked_button, "answer_button_wrong");
