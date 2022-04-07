@@ -7,6 +7,7 @@ let level = 1; // the current level
 let lives = 3; // the number of lives remaining
 
 function on_page_load() {
+    register_answer_button_clicks();
     fetch_new_question();
 }
 
@@ -21,7 +22,7 @@ function on_clue_image_gif_load(gif_url) {
     update_clue_image(gif_url);
 }
 
-function on_answer_button_click() {
+function on_answer_button_click(clicked_button) {
     check_answer(clicked_button, on_correct_answer, on_wrong_answer);
 }
 
@@ -51,6 +52,10 @@ function on_game_over() {
 }
 
 // Event functions
+function register_answer_button_clicks() {
+    // TBD register event handlers to call on_answer_button_click with the clicked_button when a button is clicked
+}
+
 function fetch_new_question() {
     // TBD fetch question data from Trivia DB API then call on_question_load(question, answer_options, answer)
     // HINT: "javascript fetch api"
