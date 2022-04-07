@@ -10,24 +10,38 @@
         <!--Adding Google Fonts from CDN-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Titan+One&display=swap" rel="stylesheet">
 
-        <!--Add your CSS rules here-->
-        <style>
-            
-        </style>
+        <!--Importing our stylesheets-->
+        <link href="styles/common.css" rel="stylesheet">
+        <link href="styles/game.css" rel="stylesheet">
     </head>
     <body>
-        <a href="index.html"><i class="ri-home-2-line"></i></a>
-        <h1>Level 1</h1>
-        <i class="ri-heart-3-fill"></i>
-        <i class="ri-heart-3-fill"></i>
-        <i class="ri-heart-3-fill"></i>
-        <p>What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?</p>
-        <img src="https://media.tenor.com/images/7b429cea4d34e9527f6fd2554c0dfad8/tenor.gif">
-        <button>Wilson</button>
-        <button>Friday</button>
-        <button>Jones</button>
-        <button>Billy</button>
+        <div id="background"></div>
+        <div id="main_container">
+            <nav id="nav_container">
+                <div id="nav_button_container">
+                    <a href="index.html"><i class="ri-home-2-line"></i></a>
+                </div>
+                <h5>Level 1</h5>
+                <div id="lives_container">
+                    <i class="ri-heart-3-fill"></i>
+                    <i class="ri-heart-3-fill"></i>
+                    <i class="ri-heart-3-fill"></i>
+                </div>
+            </nav>
+            <div id="quiz_container">
+                <p id="question_text">What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?</p>
+                <img src="https://media.tenor.com/images/7b429cea4d34e9527f6fd2554c0dfad8/tenor.gif">
+                <div id="answer_button_container">
+                    <button>Wilson</button>
+                    <button>Friday</button>
+                    <button>Jones</button>
+                    <button>Billy</button>
+                </div>
+            </div>
+            <!--Adding an empty div to create 3 flex children inside #main_container and move #quiz_container towards the center-->
+            <div></div>
+        </div>
     </body>
 </html>
