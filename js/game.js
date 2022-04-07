@@ -54,6 +54,7 @@ function on_game_over() {
 // Event functions
 function register_answer_button_clicks() {
     // TBD register event handlers to call on_answer_button_click with the clicked_button when a button is clicked
+    // HINT: "javascript register button click handler"
 }
 
 function fetch_new_question() {
