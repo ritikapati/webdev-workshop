@@ -1,4 +1,5 @@
 - When the web page loads:
+    - register answer button click handlers
     - fetch a new question using Trivia DB API
 
 - When a question loads:
