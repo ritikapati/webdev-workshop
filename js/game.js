@@ -2,10 +2,11 @@ function on_page_load() {
     fetch_new_question();
 }
 
-function on_question_load(question, answer_options, correct_answer) {
+function on_question_load(question, answer_options, answer) {
     update_question_text(question);
     update_answer_buttons_text(answer_options);
-    fetch_clue_image_gif(correct_answer);
+    store_correct_answer(answer);
+    fetch_clue_image_gif(answer);
 }
 
 function on_clue_image_gif_load(gif_data) {
@@ -41,7 +42,7 @@ function on_game_over() {
 }
 
 function fetch_new_question() {
-    // TBD fetch question data from Trivia DB API then call on_question_load(question, answer_options, correct_answer)
+    // TBD fetch question data from Trivia DB API then call on_question_load(question, answer_options, answer)
 }
 
 function update_question_text(question) {
@@ -52,7 +53,11 @@ function update_answer_buttons_text(answer_options) {
     // TBD update the text of the 4 answer buttons
 }
 
-function fetch_clue_image_gif(correct_answer) {
+function store_correct_answer(answer) {
+
+}
+
+function fetch_clue_image_gif(answer) {
     // TBD fetch clue image gif from Tenor API then call on_clue_image_gif_load(gif_data)
 }
 
