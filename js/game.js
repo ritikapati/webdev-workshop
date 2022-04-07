@@ -98,6 +98,7 @@ function fetch_clue_image_gif(answer) {
             const media = data["results"][random_index]["media"][0];
             on_clue_image_gif_load(media["nanogif"]["url"]);
         });
+        
 }
 
 function update_clue_image(gif_url) {
