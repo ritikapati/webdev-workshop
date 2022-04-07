@@ -26,7 +26,7 @@ function on_answer_button_click() {
 }
 
 function on_correct_answer() {
-    highlight_answer_button(clicked_button, "green");
+    highlight_answer_button(clicked_button, "answer_button_correct");
     after_n_seconds(function() {
         increment_level();
         update_level_heading();
@@ -35,7 +35,7 @@ function on_correct_answer() {
 }
 
 function on_wrong_answer() {
-    highlight_answer_button(clicked_button, "red");
+    highlight_answer_button(clicked_button, "answer_button_wrong");
     after_n_seconds(function() {
         decrement_lives();
         check_lives(on_game_over, fetch_new_question);
@@ -85,8 +85,8 @@ function check_answer(clicked_button, on_correct_answer, on_wrong_answer) {
     // HINT: "javascript get button element text", "javascript if else statement"
 }
 
-function highlight_answer_button(clicked_button, color) {
-    // TBD change the color of clicked_button to the arg color and create a 1 second timer to reset the color back
+function highlight_answer_button(clicked_button, highlight_class) {
+    // TBD add the highlight_class to clicked_button and create a 1 second timer to remove the class
     // HINT: "javascript add a class to element", "javascript timers", "javascript remove class from element"
 }
 
