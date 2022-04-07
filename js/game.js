@@ -59,7 +59,7 @@ function register_answer_button_clicks() {
 
 function fetch_new_question() {
     // TBD fetch question data from Trivia DB API then call on_question_load(question, answer_options, answer)
-    // HINT: "javascript fetch api"
+    // HINT: "javascript fetch api", "javascript get random number in range", "javascript add element into array at position"
 }
 
 function update_question_text(question) {
@@ -79,7 +79,7 @@ function store_correct_answer(answer) {
 
 function fetch_clue_image_gif(answer) {
     // TBD fetch clue image gif from Tenor API then call on_clue_image_gif_load(gif_url)
-    // HINT: "javascript fetch api"
+    // HINT: "javascript fetch api", "javascript string replace", "javascript get random number in range"
 }
 
 function update_clue_image(gif_url) {
