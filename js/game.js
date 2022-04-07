@@ -106,24 +106,26 @@ function update_level_heading() {
 }
 
 function decrement_lives() {
-    // TBD decrement lives by 1
-    // HINT: "javascript arithmetic operators", "javascript decrement by 1"
+    lives = lives - 1;
 }
 
 function check_lives(on_game_over, fetch_new_question) {
-    // TBD check if lives are 0 then call game_over() else fetch_new_question()
-    // HINT: "javascript if else statement"
+    if (lives === 0) {
+        on_game_over();
+    } else {
+        fetch_new_question();
+    }
 }
 
 function hide_answer_buttons() {
-    // TBD hide the 4 answer buttons
-    // HINT: "javascript get html elements by class", "javascript hide elements"
+    let answer_buttons = document.getElementsByClassName("answer_button");
+    for (let i = 0; i < answer_buttons.length; ++i) {
+        answer_buttons[i].style.visibility = 'hidden';
+    }
 }
 
 function go_to_homepage() {
-    // TBD navigate to homepage ("index.html")
-    // HINT: "javascript navigate to a different page"
+    window.location.href = "index.html";
 }
 
-// TBD call on_page_load when the page loads
-// HINT: "javascript run code after page load"
+window.onload = on_page_load;
