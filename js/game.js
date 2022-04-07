@@ -1,3 +1,11 @@
+const TRIVIA_API_URL = "https://opentdb.com/api.php?amount=1&category=11&difficulty=easy&type=multiple"; // see https://opentdb.com/api_config.php
+const TENOR_API_KEY = ""; // you need to replace this with your own API key from Tenor (see https://tenor.com/gifapi)
+const TENOR_API_URL = "https://g.tenor.com/v1/search?q=QUERY&key=API_KEY&limit=10".replace("API_KEY", TENOR_API_KEY);
+
+let correct_answer = ""; // the current correct answer
+let level = 1; // the current level
+let lives = 3; // the number of lives remaining
+
 function on_page_load() {
     fetch_new_question();
 }
@@ -40,6 +48,7 @@ function on_game_over() {
     after_n_seconds(go_to_homepage, 3);
 }
 
+// Event functions
 function fetch_new_question() {
     // TBD fetch question data from Trivia DB API then call on_question_load(question, answer_options, correct_answer)
 }
