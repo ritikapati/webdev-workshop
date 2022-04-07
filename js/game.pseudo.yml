@@ -4,6 +4,7 @@
 - When a question loads:
     - update the question text
     - update the answer buttons text
+    - store the correct answer
     - fetch the clue image gif from Tenor API using the correct answer
 
 - When clue image gif loads:
