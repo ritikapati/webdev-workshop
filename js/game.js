@@ -84,26 +84,30 @@ function update_clue_image(gif_url) {
 function check_answer(clicked_button, on_correct_answer, on_wrong_answer) {
     // TBD get the text of the clicked_button and check if it matches with the correct answer then call on_correct_answer or on_wrong_answer
     // HINT: "javascript get button element text", "javascript if else statement"
+    if (clicked_button.textContent === correct_answer) {
+        on_correct_answer(clicked_button);
+    } else {
+        on_wrong_answer(clicked_button);
+    }
 }
 
 function highlight_answer_button(clicked_button, highlight_class) {
-    // TBD add the highlight_class to clicked_button and create a 1 second timer to remove the class
-    // HINT: "javascript add a class to element", "javascript timers", "javascript remove class from element"
+    clicked_button.classList.add(highlight_class);
+    setTimeout(function() {
+        clicked_button.classList.remove(highlight_class);
+    }, 1000);
 }
 
 function after_n_seconds(function_to_execute, n) {
-    // TBD create a single burst timer for n seconds then call function_to_execute
-    // HINT: "javascript timers"
+    setTimeout(function_to_execute, n * 1000);
 }
 
 function increment_level() {
-    // TBD increment level by 1
-    // HINT: "javascript arithmetic operators", "javascript increment by 1"
+    level = level + 1;
 }
 
 function update_level_heading() {
-    // TBD update the level_heading to "Level X" where X is the current level
-    // HINT: "javascript string concatenation", "javascript find element by id", "javascript update element text"
+    document.getElementById("level_heading").textContent = "Level " + level;
 }
 
 function decrement_lives() {
@@ -113,7 +117,6 @@ function decrement_lives() {
 function update_hearts() {
     let hearts = document.getElementsByClassName("ri-heart-3-fill");
     hearts[hearts.length-1].className = "ri-heart-3-line";
-    
 }
 
 function check_lives(on_game_over, fetch_new_question) {
