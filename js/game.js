@@ -35,9 +35,10 @@ function on_correct_answer() {
 }
 
 function on_wrong_answer() {
+    decrement_lives();
+    update_hearts();
     highlight_answer_button(clicked_button, "answer_button_wrong");
     after_n_seconds(function() {
-        decrement_lives();
         check_lives(on_game_over, fetch_new_question);
     }, 1);
 }
@@ -108,6 +109,10 @@ function update_level_heading() {
 function decrement_lives() {
     // TBD decrement lives by 1
     // HINT: "javascript arithmetic operators", "javascript decrement by 1"
+}
+
+function update_hearts() {
+    // TBD update the hearts to show remaining lives (use ri-heart-3-line class for empty heart)
 }
 
 function check_lives(on_game_over, fetch_new_question) {
