@@ -5,10 +5,10 @@
     - update the question text
     - update the answer buttons text
     - store the correct answer
-    - fetch the clue image gif url from Tenor API using the correct answer as search query
+    - fetch the clue image gif from Tenor API using the correct answer as search query
 
-- When clue image gif url is done fetching:
-    - update the clue image with the gif url
+- When clue image gif is done fetching:
+    - update the clue image with the gif
 
 - When user clicks any answer button:
     - check if correct answer:
