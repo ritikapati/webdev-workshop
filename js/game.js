@@ -113,7 +113,7 @@ function decrement_lives() {
 
 function update_hearts() {
     // TBD update the hearts to show remaining lives (use ri-heart-3-line class for empty heart)
-    // HINT: "javascript find elements by class", "javascript remove class from element"
+    // HINT: "javascript replace element class"
 }
 
 function check_lives(on_game_over, fetch_new_question) {
