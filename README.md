@@ -1,4 +1,4 @@
-Renzil's Web Development Workshop
+# Renzil's Web Development Workshop
 
 This repository contains source code for a web development workshop where we try to build a Hollywood-themed quiz game.
 
