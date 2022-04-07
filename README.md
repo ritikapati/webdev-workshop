@@ -1,7 +1,8 @@
-# webdev-workshop
-Web Dev workshop
+Renzil's Web Development Workshop
 
 This repository contains source code for a web development workshop where we try to build a Hollywood-themed quiz game.
+
+Before you begin, please fork this repository into your GitHub account by clicking the Fork button in GitHub (usually on the top right).
 
 The web development workshop is broken down into 3 parts:
 
