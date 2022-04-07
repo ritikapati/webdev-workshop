@@ -9,8 +9,8 @@ function on_question_load(question, answer_options, answer) {
     fetch_clue_image_gif(answer);
 }
 
-function on_clue_image_gif_load(gif_data) {
-    update_clue_image(gif_data);
+function on_clue_image_gif_load(gif_url) {
+    update_clue_image(gif_url);
 }
 
 function on_answer_button_click() {
@@ -58,11 +58,11 @@ function store_correct_answer(answer) {
 }
 
 function fetch_clue_image_gif(answer) {
-    // TBD fetch clue image gif from Tenor API then call on_clue_image_gif_load(gif_data)
+    // TBD fetch clue image gif from Tenor API then call on_clue_image_gif_load(gif_url)
 }
 
-function update_clue_image(gif_data) {
-    // TBD update the clue image with the gif data
+function update_clue_image(gif_url) {
+    // TBD update the clue image with the gif url
 }
 
 function check_answer(clicked_button, on_correct_answer, on_wrong_answer) {
