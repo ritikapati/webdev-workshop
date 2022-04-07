@@ -113,6 +113,7 @@ function decrement_lives() {
 function update_hearts() {
     let hearts = document.getElementsByClassName("ri-heart-3-fill");
     hearts[hearts.length-1].className = "ri-heart-3-line";
+    
 }
 
 function check_lives(on_game_over, fetch_new_question) {
