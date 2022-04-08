@@ -20,8 +20,7 @@ Then you can open this workshop in a Gitpod workspace by clicking the New Worksp
 <a href="https://www.loom.com/share/42a3c3b2e66146bba8fd3499cc440cf5">
   <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/42a3c3b2e66146bba8fd3499cc440cf5-with-play.gif">
 </a>
-<br/>
-<br/>
+---
 The web development workshop is broken down into 3 parts in sequential order.
 
 ## Part 1 - GitHub and HTML
