@@ -6,6 +6,22 @@
 > 
 > Once you switch to this branch, a good practice is to create a new working branch from it using your GitHub username. For example I would create a new branch **renzil/completed** from this branch before I begin.
 
+## Congratulations 🎉
+
+Congratulations on completing the workshop!
+
+I hope you go on to build amazing websites in the future 🚀
+
+> Do complete any steps that you might have missed during the live workshop.
+
+For those who attended the live workshop, you have my WhatsApp and email and can reach me directly if you have any questions.
+
+Do follow me on [Twitter](https://twitter.com/renzil) for tweets on how to become a better coder, and [LinkedIn](https://linkedin.com/in/renzil) for career and industry advice.
+
+I also write a [weekly newsletter on substack](https://renzil.substack.com) where I share powerful personal stories that have shaped the way I think and approach my career.
+
+> If you would like to learn together with a like-minded community, do join and help me build a community on [Discord](https://discord.gg/Th4Fg8vPSs).
+
 ## Build
 
 To preview the web site in a browser using Gitpod, you need to run the following command in the Gitpod terminal,
