@@ -22,7 +22,7 @@ I also write a [weekly newsletter on substack](https://renzil.substack.com) wher
 
 If you would like to help others learn to code, do join and help me build a community on [Discord](https://discord.gg/Th4Fg8vPSs).
 
-If you feel like tweeting your accomplishment, [here's a tweet template you can use](https://twitter.com/intent/tweet?text=I%20just%20learned%20the%20basics%20of%20GitHub%2C%20HTML%2C%20CSS%20and%20Javascript%20by%20building%20a%20game%20from%20scratch%20in%20Renzil%27s%20web%20development%20workshop%21%20hollywood-quiz.renzil.com%20@renzil&in_reply_to=1511568215758893058).
+If you would like to tweet about learning new skills through this workshop, [here's a tweet template you can use](https://twitter.com/intent/tweet?text=I%20just%20learned%20the%20basics%20of%20GitHub%2C%20HTML%2C%20CSS%20and%20Javascript%20by%20building%20a%20game%20from%20scratch%20in%20Renzil%27s%20web%20development%20workshop%21%20hollywood-quiz.renzil.com%20@renzil&in_reply_to=1511568215758893058).
 
 ## Build
 
