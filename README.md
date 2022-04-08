@@ -1,6 +1,8 @@
 # Part 2 - CSS
 
-> Before starting this section make sure you have completed Part 1 - HTML (see branch **workshop/part-html**). This branch contains the complete HTML implementation of index.html and game.html.
+> Before starting this section make sure you have completed Part 1 - HTML (see branch **workshop/part1-html**).
+> 
+> This branch contains the complete HTML implementation of index.html and game.html.
 > 
 > Once you switch to this branch, a good practice is to create a new working branch from it using your GitHub username. For example I would create a new branch **renzil/part2-css** from this branch before I begin.
 > 
