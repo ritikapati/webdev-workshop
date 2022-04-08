@@ -1,6 +1,6 @@
 # Renzil's Web Development Workshop
 
-This repository contains source code for a web development workshop where we learn Git, HTML, CSS and Javascript while building a Hollywood-themed quiz game.
+This repository contains source code for a web development workshop where we learn Git, HTML, CSS and Javascript while building a Hollywood-themed quiz game [like this](https://hollywood-quiz.renzil.com).
 
 Before you begin, please fork this repository into your GitHub account by clicking the Fork button in GitHub (usually on the top right).
 
