@@ -27,9 +27,13 @@ Here is a video on how to do that:
 
 ## Workshop steps
 
-1. Add an h1 tag for the heading "Hollywood Quiz"
+1. Add an \<h1> tag for the heading "Hollywood Quiz"
 2. Add a play icon for the play button (use [Remix Icon](https://remixicon.com) to find the play icon)
-3. Add an h2 tag for the "PLAY" that appears below the button
+3. Add an \<h2> tag for the "PLAY" that appears below the button
+4. Create a file called game.html for the game page
+5. Add a home icon for the home button in game.html
+6. Wrap the \<h2> PLAY button in index.html inside an anchor \<a> element and link it to game.html
+7. Wrap the home button in game.html inside an \<a> element and link it to index.html
 
 ## Next steps
 
@@ -38,6 +42,13 @@ You can play around with other HTML elements to understand how they display by d
 Some elements like \<h1> are **block** elements, which means multiple \<h1> elements always appear on a new line (by default, this can be changed). But some elements like \<a> are **inline** and multiple \<a> elements display on the same line after the previous element.
   
 Some elements like \<br> are also known as empty elements as they do not support any inner content, and hence do not have a closing tag.
+  
+You can also try implementing the rest of the content of game.html on your own. It contains:
+- a heading "Level 1" for the current level
+- 3 heart icons for the remaining lives
+- a paragraph for the question
+- an image for the meme clue
+- 4 text buttons for the answer options
   
 Once you are done with this part of the workshop,
 - commit your changes to your working branch
