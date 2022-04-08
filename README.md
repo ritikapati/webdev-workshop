@@ -12,7 +12,7 @@ Congratulations on completing the workshop!
 
 I hope you go on to build amazing websites in the future 🚀
 
-> Do complete any steps that you might have missed during the live workshop.
+Do complete any steps that you might have missed during the live workshop.
 
 For those who attended the live workshop, you have my WhatsApp and email and can reach me directly if you have any questions.
 
