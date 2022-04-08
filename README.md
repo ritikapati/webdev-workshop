@@ -60,4 +60,6 @@ To enable GitHub pages deployments for this repository,
 
 ## My favourite learning resources
 
-HTML/CSS/JS Reference - [MDN Docs](https://developer.mozilla.org/en-US/) | Learn CSS Flex with [Flexbox Froggy](https://flexboxfroggy.com/) | [Google Search](https://google.com)
+[MDN Docs](https://developer.mozilla.org/en-US/) for HTML, CSS & JS reference.
+[Flexbox Froggy](https://flexboxfroggy.com/) to learn CSS flex.
+[Google Search](https://google.com).
