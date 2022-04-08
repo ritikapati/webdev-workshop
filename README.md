@@ -62,7 +62,7 @@ Then click on Remote Explorer button, and click on the globe icon for port 3000 
 There are many easy ways to deploy a simple static website like this that doesn't require any server. The easiest would be to use GitHub Pages.
 
 To enable GitHub pages deployments for this repository,
-- Go to Settings
+- Click on the Settings button for this repository
 - Click on the Pages button
 - Select the branch you want to deploy and click Save
 - Check the 'Enforce HTTPS' checkbox to prevent browsers from showing a security warning while visiting your site
