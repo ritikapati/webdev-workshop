@@ -10,7 +10,7 @@ Once you signup for Gitpod with your GitHub credentials, make sure you have chec
 <br/>
 <br/>
 <a href="https://www.loom.com/share/1249c77745654b0ba46e83cfb8481eff">
-  <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1249c77745654b0ba46e83cfb8481eff-with-play.gif">
+  <img style="max-width:100px;" src="https://cdn.loom.com/sessions/thumbnails/1249c77745654b0ba46e83cfb8481eff-with-play.gif">
 </a>
 <br/>
 <br/>
@@ -18,7 +18,7 @@ Then you can open this workshop in a Gitpod workspace by clicking the New Worksp
 <br/>
 <br/>
 <a href="https://www.loom.com/share/42a3c3b2e66146bba8fd3499cc440cf5">
-  <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/42a3c3b2e66146bba8fd3499cc440cf5-with-play.gif">
+  <img style="max-width:100px;" src="https://cdn.loom.com/sessions/thumbnails/42a3c3b2e66146bba8fd3499cc440cf5-with-play.gif">
 </a>
 <br/>
 <br/>
