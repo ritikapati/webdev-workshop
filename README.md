@@ -46,3 +46,16 @@ To enable GitHub pages deployments for this repository:
 <a href="https://www.loom.com/share/f0bd94777a6c4171860f975054379c4f">
   <img style="width: 300px; max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f0bd94777a6c4171860f975054379c4f-with-play.gif">
 </a>
+
+## Next steps
+
+Even though we implemented most of the core functionality of our game, a lot more goes into making a game (or any product) highly polished.
+
+If you see the [original version of the game](https://hollywood-quiz.renzil.com):
+- it shows the low-resolution gif quickly while the high-resolution gif loads in the background
+- it has a slightly buggy, but really cool, music and sound-effects
+- it has a difficulty slider on the home page, so the player can play quizzes of varying difficulties
+- audio and difficulty settings are passed from index.html to game.html and vice versa, to give a consistent experience to the user
+- it shows a loading icon when the question is loading, and the UI is disabled to prevent bugs
+
+These features were skipped in this workshop due to time but you can try to implement them on your own.
