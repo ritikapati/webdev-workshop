@@ -24,6 +24,10 @@ If you would like to help others learn to code, do join and help me build a comm
 
 If you would like to tweet about learning new skills through this workshop, [here's a tweet template you can use](https://twitter.com/intent/tweet?text=I%20just%20learned%20the%20basics%20of%20GitHub%2C%20HTML%2C%20CSS%20and%20Javascript%20by%20building%20a%20game%20from%20scratch%20in%20Renzil%27s%20web%20development%20workshop%21%20hollywood-quiz.renzil.com%20@renzil&in_reply_to=1511568215758893058).
 
+## Before you build or deploy
+
+Make sure you replace the TENOR_API_KEY in js/game.js with your own free [API key from Tenor](https://tenor.com/developer/keyregistration) otherwise the gif images won't update.
+
 ## Build
 
 To preview the web site in a browser using Gitpod, you need to run the following command in the Gitpod terminal,
