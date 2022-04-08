@@ -52,8 +52,9 @@ To enable GitHub pages deployments for this repository:
 Even though we implemented most of the core functionality of our game, a lot more goes into making a game (or any product) highly polished.
 
 If you see the [original version of the game](https://hollywood-quiz.renzil.com):
-- it shows the low-resolution gif quickly while the high-resolution gif loads in the background
 - it has a slightly buggy, but really cool, music and sound-effects
+- it shows the low-resolution gif while the high-resolution gif loads in the background, and then switches to high-res gif
+- it has a confetti explosion effect every time you answer correctly
 - it has a difficulty slider on the home page, so the player can play quizzes of varying difficulties
 - audio and difficulty settings are passed from index.html to game.html and vice versa, to give a consistent experience to the user
 - it shows a loading icon when the question is loading, and the UI is disabled to prevent bugs
