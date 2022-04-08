@@ -32,7 +32,7 @@ The below video shows you how to switch a branch and create a new branch from it
 </a>
 
 ## Part 1 - GitHub and HTML
-Learn the basics of GitHub and HTML documents in this part. Switch to the branch [workshop/part1-html](/tree/workshop/part1-html) and follow the instructions in the README.
+Learn the basics of GitHub and HTML documents in this part. Switch to the branch [workshop/part1-html](/blob/workshop/part1-html) and follow the instructions in the README.
 
 ## Part 2 - CSS
 Learn the basics of adding styles to your HTML document in this part. Switch to the branch [workshop/part2-css](/tree/workshop/part2-css) and follow the instructions in the README.
