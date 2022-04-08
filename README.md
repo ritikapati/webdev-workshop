@@ -60,5 +60,4 @@ To enable GitHub pages deployments for this repository,
 
 ## Resources
 
-[MDN Docs](https://developer.mozilla.org/en-US/)
-[Google Search](https://google.com)
+[MDN Docs](https://developer.mozilla.org/en-US/) | [Google Search](https://google.com)
