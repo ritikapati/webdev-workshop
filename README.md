@@ -43,3 +43,15 @@ Learn how to react to events and write custom logic using Javascript in this par
 ## Completed project
 The completed project is available under the branch [workshop/completed](https://github.com/renzil/webdev-workshop/tree/workshop/completed).
 
+## Deployment
+
+There are many easy ways to deploy a simple static website like this that doesn't require any server. The easiest would be to use GitHub Pages.
+
+To enable GitHub pages deployments for this repository,
+- Go to Settings
+- Click on the Pages button
+- Select the branch you want to deploy and click Save
+- Check the 'Enforce HTTPS' checkbox to prevent browsers from showing a security warning while visiting your site
+<a href="https://www.loom.com/share/f0bd94777a6c4171860f975054379c4f">
+  <img style="width: 300px; max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f0bd94777a6c4171860f975054379c4f-with-play.gif">
+</a>
