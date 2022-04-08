@@ -84,6 +84,8 @@ To master Javascript, you should get familiar with advanced concepts like:
 - [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [inheritance and prototype-chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
   
+Every new concept takes time to learn, so be realistic about your learning expectations.
+
 Once you are done with this part of the workshop,
 - commit your changes to your working branch
 - push your working branch and its changes to GitHub
