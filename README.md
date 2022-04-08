@@ -58,12 +58,23 @@ To enable GitHub pages deployments for this repository,
   <img style="width: 300px; max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f0bd94777a6c4171860f975054379c4f-with-play.gif">
 </a>
 
-## My favourite learning resources
-
-[MDN Docs](https://developer.mozilla.org/en-US/) for HTML, CSS & JS reference.
-
-[Flexbox Froggy](https://flexboxfroggy.com/) to learn CSS flex.
+## My favourite resources
 
 [Google Search](https://google.com) for most questions which have already been answered.
 
 [Stackoverflow](https://stackoverflow.com) to ask new questions.
+
+[MDN Docs](https://developer.mozilla.org/en-US/) for HTML, CSS & JS reference.
+
+[Google Fonts](https://fonts.google.com) for fonts hosted on CDN.
+
+[Remixicon](https://remixicon.com/) for icons hosted on CDN.
+
+[Pixabay](https://pixabay.com/) for free photos, music & sound effects.
+
+[Unsplash](https://unsplash.com), [Pexels](https://pexels.com) for free stock photos.
+
+[Namecheap](https://namecheap.com) to buy domains.
+
+[Flexbox Froggy](https://flexboxfroggy.com/) to learn CSS flex in a fun way.
+
