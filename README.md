@@ -32,16 +32,16 @@ The below video shows you how to switch a branch and create a new branch from it
 </a>
 
 ## Part 1 - GitHub and HTML
-Learn the basics of GitHub and HTML documents in this part. Switch to the branch [workshop/part1-html](/blob/workshop/part1-html) and follow the instructions in the README.
+Learn the basics of GitHub and HTML documents in this part. Switch to the branch **workshop/part1-html** and follow the instructions in the README.
 
 ## Part 2 - CSS
-Learn the basics of adding styles to your HTML document in this part. Switch to the branch [workshop/part2-css](/tree/workshop/part2-css) and follow the instructions in the README.
+Learn the basics of adding styles to your HTML document in this part. Switch to the branch **workshop/part2-css** and follow the instructions in the README.
 
 ## Part 3 - Javascript
-Learn how to react to events and write custom logic using Javascript in this part. Switch to the branch [workshop/part3-javascript](/tree/workshop/part3-javascript) and follow the instructions in the README.
+Learn how to react to events and write custom logic using Javascript in this part. Switch to the branch **workshop/part3-javascript** and follow the instructions in the README.
 
 ## Completed project
-The completed project is available under the branch [workshop/completed](/tree/workshop/completed).
+The completed project is available under the branch **workshop/completed**.
 
 Make sure you replace the TENOR_API_KEY in js/game.js with your own free [API key from Tenor](https://tenor.com/developer/keyregistration) otherwise the gif images won't update.
 
