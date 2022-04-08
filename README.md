@@ -16,7 +16,7 @@ I hope you go on to build amazing websites in the future 🚀
 
 For those who attended the live workshop, you have my WhatsApp and email and can reach me directly if you have any questions.
 
-Do follow me on [Twitter](https://twitter.com/renzil) for tweets on how to become a better coder, and [LinkedIn](https://linkedin.com/in/renzil) for career and industry advice.
+Do follow me on [Twitter](https://twitter.com/renzil) for tweets on how to become a better coder and [LinkedIn](https://linkedin.com/in/renzil) for career and industry advice.
 
 I also write a [weekly newsletter on substack](https://renzil.substack.com) where I share powerful personal stories that have shaped the way I think and approach my career.
 
