@@ -43,6 +43,8 @@ Learn how to react to events and write custom logic using Javascript in this par
 ## Completed project
 The completed project is available under the branch [workshop/completed](https://github.com/renzil/webdev-workshop/tree/workshop/completed).
 
+Make sure you replace the TENOR_API_KEY in js/game.js with your own free [API key from Tenor](https://tenor.com/developer/keyregistration).
+
 ## Deployment
 
 There are many easy ways to deploy a simple static website like this that doesn't require any server. The easiest would be to use GitHub Pages.
