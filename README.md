@@ -39,4 +39,12 @@ Some elements like \<h1> are **block** elements, which means multiple \<h1> elem
   
 Some elements like \<br> are also known as empty elements as they do not support any inner content, and hence do not have a closing tag.
   
-Once you are done with this part of the workshop, commit your changes to your working branch and switch to **workshop/part2-css** branch where we will learn how to add colors, fix the layout and add animations to the document.
+Once you are done with this part of the workshop,
+- commit your changes to your working branch
+- push your working branch and its changes to GitHub
+- switch to **workshop/part2-css** branch where we will learn how to add colors, fix the layout and add animations to the document
+
+Here is a video on how to commit and push your changes:
+<a href="https://www.loom.com/share/f959cff6ab1a4ca1bdf7f0046648f470">
+  <img style="width:300px;max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f959cff6ab1a4ca1bdf7f0046648f470-with-play.gif">
+</a>
