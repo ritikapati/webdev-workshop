@@ -51,7 +51,7 @@ To preview the web site in a browser using Gitpod, you need to run the following
 
 ```npx browser-sync -w```
 
-Then click on Remote Explorer button, and click on the globe icon for port 3000.
+Then click on Remote Explorer button, and click on the globe icon for port 3000 to open the website preview in a new browser window.
 
 <a href="https://www.loom.com/share/7fc854ac6ec645d5a740e3a2986d9dd1">
   <img style="width:300px;max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7fc854ac6ec645d5a740e3a2986d9dd1-with-play.gif">
