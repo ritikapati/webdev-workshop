@@ -33,7 +33,7 @@ Here is a video on how to do that:
 
 ## Next steps
 
-You can play around with other HTML elements to understand how they display by default.
+You can play around with other HTML elements to understand how they display by default. You can find the full list of HTML elements in the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
   
 Some elements like \<h1> are **block** elements, which means multiple \<h1> elements always appear on a new line (by default, this can be changed). But some elements like \<a> are **inline** and multiple \<a> elements display on the same line after the previous element.
   
