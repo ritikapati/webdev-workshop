@@ -4,7 +4,9 @@ This repository contains source code for a web development workshop where we lea
 
 Before you begin, please fork this repository into your GitHub account by clicking the Fork button in GitHub (usually on the top right).
 
-You must then choose an editor for coding. There are many choices that will work, but if you're new I highly recommend using the cloud-based IDE [Gitpod](https://gitpod.io). It is basically a web version of the popular Visual Studio Code with a generous free tier. It also has GitHub integration automatically setup, and you can use it on any computer.
+You must then choose an editor for coding. There are many choices that will work, but if you're new I highly recommend using the cloud-based IDE [Gitpod](https://gitpod.io).
+
+Gitpod is basically a web version of the popular Visual Studio Code with a generous free tier. The best part is that it already has a GitHub integration, a Linux terminal, node, python and numerous other development tools already installed so you don't need to waste any time with installation or configuration.
 
 Once you signup for Gitpod with your GitHub credentials, make sure you have checked the permissions "user:email" and "public_repo" in https://gitpod.io/integrations -> Git Providers -> GitHub -> Edit Permissions.
 
