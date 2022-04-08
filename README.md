@@ -86,7 +86,7 @@ To master Javascript, you should get familiar with advanced concepts like:
   
 Every new concept takes time to learn, so be realistic about your learning expectations.
 
-Once you are done with this part of the workshop,
+Once you are done with this part of the workshop:
 - commit your changes to your working branch
 - push your working branch and its changes to GitHub
 - switch to **workshop/completed** branch to view the complete implementation of the game
