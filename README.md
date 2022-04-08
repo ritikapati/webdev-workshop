@@ -43,7 +43,7 @@ Learn how to react to events and write custom logic using Javascript in this par
 ## Completed project
 The completed project is available under the branch [workshop/completed](https://github.com/renzil/webdev-workshop/tree/workshop/completed).
 
-Make sure you replace the TENOR_API_KEY in js/game.js with your own free [API key from Tenor](https://tenor.com/developer/keyregistration).
+Make sure you replace the TENOR_API_KEY in js/game.js with your own free [API key from Tenor](https://tenor.com/developer/keyregistration) otherwise the gif images won't update.
 
 ## Deployment
 
