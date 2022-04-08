@@ -38,7 +38,7 @@ You can play around with other CSS properties and selectors to understand how th
 
 Mastering CSS can make your websites look great.
 
-Play around with typography (fonts), [gradients](https://cssgradient.io/), [filters](https://alligator.io/css/css-filter-examples/) and animations to make unique [stunning designs](https://www.psd2html.com/blog/our-faves-12-pure-css-demos-to-ignite-your-imagination.html).
+Play around with [typography](https://css-tricks.com/typography-for-developers/), [gradients](https://cssgradient.io/), [filters](https://alligator.io/css/css-filter-examples/) and [animations](https://css-tricks.com/almanac/properties/a/animation/) to make unique stunning designs.
 
 Learn to create pixel-perfect layouts by understanding these concepts:
 - [CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) which determines how elements are rendered using margins, borders, padding and width / height
