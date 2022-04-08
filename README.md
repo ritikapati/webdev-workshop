@@ -1,9 +1,9 @@
 # Part 2 - CSS
 
 > Before starting this section make sure you have completed Part 1 - HTML (see branch **workshop/part-html**). This branch contains the complete HTML implementation of index.html and game.html.
-
+> 
 > Once you switch to this branch, a good practice is to create a new working branch from it using your GitHub username. For example I would create a new branch **renzil/part2-css** from this branch before I begin.
-
+> 
 > You can find instructions for the above steps in the **main** branch.
 
 HTML by itself does not look great. To improve the appearance of your HTML elements, you need to style them using CSS. You can learn more about CSS by reading the [MDN docs on CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
