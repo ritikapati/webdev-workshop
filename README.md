@@ -50,7 +50,9 @@ Once it starts running, open port 3000 in a new browser window through the *Remo
 6. Implement store_correct_answer
 7. Implement fetch_clue_image_gif
 8. Implement update_clue_image
-9. At this point check your website. Everytime you reload, a new question, image and answer button options should appear. Next we need to handle the answer button click handler.
+
+> At this point check your website. Everytime you reload, a new question, image and answer button options should appear. Next we need to handle the answer button click handler.
+
 10. Implement register_answer_button_clicks
 11. Implement check_answer
 13. Implement highlight_answer_button
