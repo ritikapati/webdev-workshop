@@ -22,7 +22,9 @@ Then you can open this workshop in a Gitpod workspace by clicking the New Worksp
 </a>
 <br/>
 <br/>
+
 ---
+
 The web development workshop is broken down into 3 parts in sequential order.
 
 ## Part 1 - GitHub and HTML
