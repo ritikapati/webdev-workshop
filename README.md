@@ -20,7 +20,7 @@ Do follow me on [Twitter](https://twitter.com/renzil) for tweets on how to becom
 
 I also write a [weekly newsletter on substack](https://renzil.substack.com) where I share powerful personal stories that have shaped the way I think and approach my career.
 
-> If you would like to learn together with a like-minded community, do join and help me build a community on [Discord](https://discord.gg/Th4Fg8vPSs).
+If you would like to help others learn to code, do join and help me build a community on [Discord](https://discord.gg/Th4Fg8vPSs).
 
 ## Build
 
