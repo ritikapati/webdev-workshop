@@ -60,9 +60,7 @@ To enable GitHub pages deployments for this repository,
 
 ## My favourite resources
 
-[Google Search](https://google.com) for most questions which have already been answered.
-
-[Stackoverflow](https://stackoverflow.com) to ask new questions.
+[Google Search](https://google.com) for most questions which have already been answered. Prefer results from Stackoverflow.
 
 [MDN Docs](https://developer.mozilla.org/en-US/) for HTML, CSS & JS reference.
 
@@ -78,3 +76,4 @@ To enable GitHub pages deployments for this repository,
 
 [Flexbox Froggy](https://flexboxfroggy.com/) to learn CSS flex in a fun way.
 
+[Stackoverflow](https://stackoverflow.com) to ask new questions.
