@@ -37,6 +37,6 @@ You can play around with other HTML elements to understand how they display by d
   
 Some elements like \<h1> are **block** elements, which means multiple \<h1> elements always appear on a new line (by default, this can be changed). But some elements like \<a> are **inline** and multiple \<a> elements display on the same line after the previous element.
   
-Some elements like \<img> are also known as empty elements as they do not support any inner content, and hence do not have a closing tag.
+Some elements like \<br> are also known as empty elements as they do not support any inner content, and hence do not have a closing tag.
   
 Once you are done with this part of the workshop, commit your changes to your working branch and switch to **workshop/part2-css** branch where we will learn how to add colors, fix the layout and add animations to the document.
