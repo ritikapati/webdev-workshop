@@ -4,7 +4,7 @@ This repository contains source code for a web development workshop where we lea
 
 Before you begin, please fork this repository into your GitHub account by clicking the Fork button in GitHub (usually on the top right).
 
-You must then choose an editor for coding. There are many choices that will work, but if you're new I highly recommend using the cloud-based IDE [Gitpod](https://gitpod.io). It is basically a web version of the popular Visual Studio Code with a generous free tier.
+You must then choose an editor for coding. There are many choices that will work, but if you're new I highly recommend using the cloud-based IDE [Gitpod](https://gitpod.io). It is basically a web version of the popular Visual Studio Code with a generous free tier. It also has GitHub integration automatically setup, and you can use it on any computer.
 
 Once you signup for Gitpod with your GitHub credentials, make sure you have checked the permissions "user:email" and "public_repo" in https://gitpod.io/integrations -> Git Providers -> GitHub -> Edit Permissions.
 
@@ -44,6 +44,18 @@ Learn how to react to events and write custom logic using Javascript in this par
 The completed project is available under the branch [workshop/completed](https://github.com/renzil/webdev-workshop/tree/workshop/completed).
 
 Make sure you replace the TENOR_API_KEY in js/game.js with your own free [API key from Tenor](https://tenor.com/developer/keyregistration) otherwise the gif images won't update.
+
+## Build
+
+To preview the web site in a browser using Gitpod, you need to run the following command in the Gitpod terminal,
+
+```npx browser-sync -w```
+
+Then click on Remote Explorer button, and click on the globe icon for port 3000.
+
+<a href="https://www.loom.com/share/7fc854ac6ec645d5a740e3a2986d9dd1">
+  <img style="width:300px;max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7fc854ac6ec645d5a740e3a2986d9dd1-with-play.gif">
+</a>
 
 ## Deployment
 
