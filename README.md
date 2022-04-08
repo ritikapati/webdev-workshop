@@ -31,11 +31,11 @@ The below video shows you how to switch a branch and create a new branch from it
   <img style="width:300px;max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/19b7d5dbe9ff423ab5d8a3362ddd20af-with-play.gif">
 </a>
 
-## Part 1 - GitHub and HTML
-Learn the basics of GitHub and HTML documents in this part. Switch to the branch **workshop/part1-html** and follow the instructions in the README.
+## Part 1 - HTML
+Learn the basics of HTML in this part. This is where you need to start once you have Gitpod setup. Switch to the branch **workshop/part1-html** and follow the instructions in the README.
 
 ## Part 2 - CSS
-Learn the basics of adding styles to your HTML document in this part. Switch to the branch **workshop/part2-css** and follow the instructions in the README.
+Learn the basics of adding CSS styles to your HTML document in this part. Switch to the branch **workshop/part2-css** and follow the instructions in the README.
 
 ## Part 3 - Javascript
 Learn how to react to events and write custom logic using Javascript in this part. Switch to the branch **workshop/part3-javascript** and follow the instructions in the README.
