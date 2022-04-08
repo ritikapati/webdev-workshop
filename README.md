@@ -58,6 +58,6 @@ To enable GitHub pages deployments for this repository,
   <img style="width: 300px; max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f0bd94777a6c4171860f975054379c4f-with-play.gif">
 </a>
 
-## Resources
+## My favourite learning resources
 
-[MDN Docs](https://developer.mozilla.org/en-US/) | [Google Search](https://google.com)
+HTML/CSS/JS Reference - [MDN Docs](https://developer.mozilla.org/en-US/) | Learn CSS Flex with [Flexbox Froggy](https://flexboxfroggy.com/) | [Google Search](https://google.com)
