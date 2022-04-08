@@ -54,7 +54,7 @@ You can also try implementing the rest of the styles for game.html on your own. 
 - set the fonts and colors of all text
 - set the vertical flex layout of the entire document to span the height
   
-Once you are done with this part of the workshop,
+Once you are done with this part of the workshop:
 - commit your changes to your working branch
 - push your working branch and its changes to GitHub
 - switch to **workshop/part3-javascript** branch where we will learn how to load the question and answers from an API, and handle user button clicks using Javascript
