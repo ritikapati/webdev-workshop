@@ -1,9 +1,9 @@
 # Part 1 - HTML 
 
-*Before starting this section make sure you have a development environment setup like Gitpod. Once you switch to this branch, a good practice is to create 
-a new working branch from it using your GitHub username. For example I would create a new branch **renzil/part1-html** from this branch before I begin.*
+> Before starting this section make sure you have a development environment setup like Gitpod. Once you switch to this branch, a good practice is to create 
+a new working branch from it using your GitHub username. For example I would create a new branch **renzil/part1-html** from this branch before I begin.
 
-*You can find instructions for the above steps in the **main** branch.*
+> You can find instructions for the above steps in the **main** branch.
 
 HTML is the most fundamental document that gets fetched and rendered by a browser when you visit a website. You can learn more about HTML by reading the [MDN docs on HTML](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
