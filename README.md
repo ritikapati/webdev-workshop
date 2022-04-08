@@ -57,3 +57,8 @@ To enable GitHub pages deployments for this repository,
 <a href="https://www.loom.com/share/f0bd94777a6c4171860f975054379c4f">
   <img style="width: 300px; max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f0bd94777a6c4171860f975054379c4f-with-play.gif">
 </a>
+
+## Resources
+
+[MDN Docs](https://developer.mozilla.org/en-US/)
+[Google Search](https://google.com)
