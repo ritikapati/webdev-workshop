@@ -4,9 +4,9 @@
 > 
 > Once you switch to this branch, a good practice is to create a new working branch from it using your GitHub username. For example I would create a new branch **renzil/part1-html** from this branch before I begin.
 > 
-> You can find instructions for the above steps in the **main** branch.
+> You can find instructions for the above steps by following the guide from the **main** branch.
 
-HTML is the most fundamental document that gets fetched and rendered by a browser when you visit a website. You can learn more about HTML by reading the [MDN docs on HTML](https://developer.mozilla.org/en-US/docs/Web/HTML).
+HTML is the most fundamental document that gets fetched and rendered by a browser when you visit a website. You can learn more about HTML by reading the [MDN tutorial on HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML).
 
 In this part of the workshop, the goal is to implement only the HTML of the landing page of [our game](https://hollywood-quiz.renzil.com). This means that we will add the content of our landing page to an html file, but we will not style (colors, layout, etc.) or implement the functionality (game logic).
 
