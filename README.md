@@ -1,11 +1,5 @@
 # Part 1 - HTML 
 
-> Before starting this section make sure you have a development environment setup like Gitpod.
-> 
-> Once you switch to this branch, a good practice is to create a new working branch from it using your GitHub username. For example I would create a new branch **renzil/part1-html** from this branch before I begin.
-> 
-> You can find instructions for the above steps by following the guide from the **main** branch.
-
 HTML is the most fundamental document that gets fetched and rendered by a browser when you visit a website. You can learn more about HTML by reading the [MDN tutorial on HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML).
 
 In this part of the workshop, the goal is to implement only the HTML of the landing page of [our game](https://hollywood-quiz.renzil.com). This means that we will add the content of our landing page to an html file, but we will not style (colors, layout, etc.) or implement the functionality (game logic).
@@ -28,6 +22,7 @@ Here is a video on how to do that:
 
 ## Workshop steps
 
+0. Create a new branch from origin/workshop/part1-html
 1. Add an \<h1> tag for the heading "Hollywood Quiz"
 2. Add a play icon for the play button (use [Remix Icon](https://remixicon.com) to find the play icon)
 3. Add an \<h2> tag for the "PLAY" that appears below the button
