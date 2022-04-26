@@ -49,10 +49,6 @@ You can also try implementing the rest of the content of game.html on your own. 
 Once you are done with this part of the workshop,
 - commit your changes to your working branch
 - push your working branch and its changes to GitHub
-- switch to **workshop/part2-css** branch where we will learn how to add colors, fix the layout and add animations to the document
+- deploy your branch to GitHub pages to view it live
 
-Here is a video on how to commit and push your changes:
-
-<a href="https://www.loom.com/share/f959cff6ab1a4ca1bdf7f0046648f470">
-  <img style="width:300px;max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f959cff6ab1a4ca1bdf7f0046648f470-with-play.gif">
-</a>
+Then switch to **workshop/part2-css** branch where we will learn how to add colors, fix the layout and add animations to the document
