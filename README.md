@@ -7,18 +7,6 @@ In this part of the workshop, the goal is to implement only the HTML of the land
 To get started, there is a file called index.html which contains a basic HTML document without any of the page content. You should be adding tags to the <body> of this document to bring in the content of the landing page.
 
 *NOTE: The above landing page has an audio button and difficulty slider. We will not be implementing these features as part of this workshop. I leave these features for you to explore on your own.*
-  
-To live test the code in Gitpod run the following command in a terminal:
-
-```npx browser-sync -w```
-
-Once it starts running, open port 3000 in a new browser window through the *Remote Explorer* view in Gitpod.
-
-Here is a video on how to do that:
-
-<a href="https://www.loom.com/share/7fc854ac6ec645d5a740e3a2986d9dd1">
-  <img style="width:300px;max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7fc854ac6ec645d5a740e3a2986d9dd1-with-play.gif">
-</a>
 
 ## Workshop steps
 
